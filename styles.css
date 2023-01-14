@@ -353,3 +353,8 @@ body {
 .additional-info__languages-item {
   color: var(--secondary-text-color);
 }
+
+.additional-info__item  {
+  height: 1.1428rem;
+  vertical-align: text-bottom;
+}
