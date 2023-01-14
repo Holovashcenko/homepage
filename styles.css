@@ -177,7 +177,7 @@ body {
   text-align: justify;
 }
 
-ul>li {
+.skills__list>li {
   position: relative;
   display: flex;
   width: 100%;
@@ -187,19 +187,19 @@ ul>li {
   margin-bottom: 10px;
 }
 
-ul>li:last-child {
+.skills__list>li:last-child {
   margin-bottom: 0px;
 }
 
-ul>li>svg {
+.skills__list>li>svg {
   padding: 2px 10px;
 }
 
-ul>li>p {
+.skills__list>li>p {
   align-self: center;
 }
 
-ul>li>span {
+.skills__list>li>span {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -210,47 +210,47 @@ ul>li>span {
 }
 
 /* HTML */
-ul>li:first-child>span {
+.skills__list>li:first-child>span {
   width: 80%;
 }
 
 /* CSS */
-ul>li:nth-child(2)>span {
+.skills__list>li:nth-child(2)>span {
   width: 70%;
 }
 
 /* JS */
-ul>li:nth-child(3)>span {
+.skills__list>li:nth-child(3)>span {
   width: 50%;
 }
 
 /* React */
-ul>li:nth-child(4)>span {
+.skills__list>li:nth-child(4)>span {
   width: 55%;
 }
 
 /* Redux */
-ul>li:nth-child(5)>span {
+.skills__list>li:nth-child(5)>span {
   width: 45%;
 }
 
 /* TS */
-ul>li:nth-child(6)>span {
+.skills__list>li:nth-child(6)>span {
   width: 47%;
 }
 
 /* Nestjs */
-ul>li:nth-child(7)>span {
+.skills__list>li:nth-child(7)>span {
   width: 40%;
 }
 
 /* MySQL */
-ul>li:nth-child(8)>span {
+.skills__list>li:nth-child(8)>span {
   width: 38%;
 }
 
 /* MongoDB */
-ul>li:nth-child(9)>span {
+.skills__list>li:nth-child(9)>span {
   width: 38%;
 }
 
